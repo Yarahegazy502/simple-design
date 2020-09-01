@@ -319,7 +319,7 @@ color: #fff;
         margin: 65px auto ;
     }
     .testemonial-1 h5,p{
-        color: white;
+        color: #615656;
     }
     .testemonial-1 span{
        color: #6195ff; 
@@ -333,7 +333,8 @@ color: #fff;
         margin-top: 10px;
     }
     .team-name{
-        margin :20px 120px
+        margin :15px 160px;
+        padding-bottom: 10px;
     }
     .team-name span{
         color: #999;
@@ -365,5 +366,6 @@ color: #fff;
     margin: 10px 405px;
 }
 .footer2 p{
-    margin: 40px 370px;
+    margin: 40px 380px;
+    color: seashell;
 }
