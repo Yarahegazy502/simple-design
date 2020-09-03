@@ -140,9 +140,15 @@ a {
 
   .owl-carousel, .owl-carousel .owl-item {
     -webkit-tap-highlight-color: transparent;
-    /* position: relative; */
+    position: relative;
 }
-
+.owl-carousel.owl-drag .owl-item {
+  /* -ms-touch-action: pan-y; */
+  touch-action:none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 /* .active1 span img :hover{
   background-color: blue;
     border-radius: 50%; 
