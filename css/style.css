@@ -144,7 +144,7 @@ a {
 }
 .owl-carousel.owl-drag .owl-item {
   /* -ms-touch-action: pan-y; */
-  touch-action:none;
+  touch-action:pan-y;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
