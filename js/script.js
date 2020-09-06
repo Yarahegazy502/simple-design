@@ -24,18 +24,18 @@ $(document).ready(function () {
 
 
  
-    var header = document.getElementById("categories");
-    var btns = header.getElementsByClassName("active1");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("activve");
-      if (current.length > 0) { 
-        current[0].className = current[0].className.replace(" activve", "");
-      }
-      this.className += " activve";
-      });
+    // var header = document.getElementById("categories");
+    // var btns = header.getElementsByClassName("active1");
+    // for (var i = 0; i < btns.length; i++) {
+    //   btns[i].addEventListener("click", function() {
+    //   var current = document.getElementsByClassName("activve");
+    //   if (current.length > 0) { 
+    //     current[0].className = current[0].className.replace(" activve", "");
+    //   }
+    //   this.className += " activve";
+    //   });
 
-    } 
+    // } 
 
 
     // var head = document.getElementById("categories");
