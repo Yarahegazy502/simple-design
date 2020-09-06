@@ -149,11 +149,11 @@ a {
 }
 .owl-carousel.owl-drag .owl-item {
   /* -ms-touch-action: pan-y; */
-  touch-action:pan-y;
+  /* touch-action:pan-y;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;} */
+  user-select: none;} */ */
 /* .active1 span img :hover{
   background-color: blue;
     border-radius: 50%; 
@@ -164,8 +164,11 @@ a {
 footer{
   margin-top:40px;
 padding-top: 23px;
-background-color: rgb(240, 235, 235);
 height:auto;
+}
+.foot{
+  background-color: rgb(223, 223, 223);
+
 }
 .p-foo{
   font-size: 20px;
