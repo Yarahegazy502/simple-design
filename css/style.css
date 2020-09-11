@@ -39,14 +39,16 @@
 }
 .medium a{
   text-decoration: none;
-  color: #fff;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
 }
 .a{
   display: inline-block;
 }
 .a.active {
   z-index: 2;
-  color: #cadf0e ;
+  color: #01c0ac ;
   background-color: transparent;
   border-color:transparent ;
 }
@@ -229,6 +231,10 @@ color: rgb(224, 221, 40)
     font-size: 30px;
     padding-right: 0px;
   }
+  .owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
 }
 
 .slider .categories .item {
