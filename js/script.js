@@ -20,7 +20,10 @@ $(document).ready(function () {
     });
 });
  
- 
+//  var input1 = document.getElementById("chang");
+//  input1.addEventListener('click',function(){
+//      input1.style.border="6px solid red"
+// ; })
 
 
  
